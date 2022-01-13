@@ -1,0 +1,172 @@
+    .base-pagina {
+        background-image: url(../imagens/imagem-base-pagina.png);
+        background-repeat: repeat-x;
+        background-position: left bottom;
+        width: 100%;
+        float: left;
+    }
+    
+    .pagina {
+        margin: 0px auto;
+        width: 1000px;
+    }
+    
+    .main,
+    .header {
+        width: 1000px;
+        float: left;
+    }
+    
+    .header-topo {
+        background-image: url(../imagens/logo_hotel.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        width: 999px;
+        height: 160px;
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .header-topo h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 48px;
+        font-weight: bold;
+        color: #ff8000;
+        margin-left: 120px;
+        font-style: normal;
+        text-shadow: #444444 3px 3px 3px;
+    }
+    
+    .header-topo h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #000;
+        margin-left: 120px;
+        font-style: normal;
+    }
+    
+    .header-base {
+        background-color: lightblue;
+        width: 1000px;
+        height: 35px;
+        float: left;
+    }
+    
+    .header-base p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: #0000ff;
+        margin-left: 30px;
+        font-style: normal;
+    }
+    
+    .barra-menu {
+        background-image: url(../imagens/fundo-menu.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 1000px;
+        height: 74px;
+        float: left;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+    
+    .dropbutton {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        padding: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        margin-top: 13px;
+    }
+    
+    .dropdown:hover .dropbutton {
+        color: #ff0000;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+        background: #47c4ed;
+        opacity: 0.5;
+        box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+    }
+    
+    .conteudo-corpo {
+        background-color: #fff;
+        background-image: url(../imagens/topo-corpo.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 980px;
+        float: left;
+        padding: 20px 10px 20px 10px;
+    }
+    
+    .coluna-esquerda {
+        background-color: #f5deb3;
+        width: 250px;
+        float: left;
+        border-radius: 5px;
+    }
+    
+    .coluna-esquerda p {
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    .coluna-direita {
+        background-color: #f5deb3;
+        width: 310px;
+        float: right;
+        border-radius: 5px;
+    }
+    
+    .coluna-direita p {
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    .linha1-coluna-direita {
+        width: 300px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .separacao-linha {
+        border-top-style: double;
+        width: 300px;
+        margin-left: 5px;
+        float: left;
+    }
+    
+    .linha2-coluna-direita {
+        width: 300px;
+        margin-left: 5px;
+        float: left;
+    }
+    
+    .rodape-pagina {
+        padding: 24px 24px 0px;
+        line-height: 69px;
+        background-image: url(../imagens/rodape-corpo.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 952px;
+        height: 70px;
+        float: left;
+    }
+    
+    .rodape-pagina p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        float: left;
+        text-align: center;
+    }
